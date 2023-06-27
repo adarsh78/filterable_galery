@@ -3,20 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Slider</title>
+    <title>filterable Images</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Image Slider</h1>
-
     <div class="container">
-
-        <a class="btn btnLeft"><i class="fa-solid fa-caret-left"></i></a>
-        <a class="btn btnRight"><i class="fa-solid fa-caret-right"></i></a>
-    </div>
+        <h2>Filterable Gallery</h2>
+        <div class="allBtn">
+            <button class="all">All</button>
+            <button class="logo">Logo Design</button>
+            <button class="mobile">Mobile Design</button>
+            <button class="web">Web Design</button>
+        </div>
     
-    <script src="https://kit.fontawesome.com/65706626e7.js" crossorigin="anonymous"></script>
+        <div class="card">
+            <div class="images">
+                <img src="images/img_ld_1.jpg" width="250" height="200" alt="logo_design_1" class="logoDesign img">
+                <img src="images/img_ld_2.png" width="250" height="200" alt="logo_design_2" class="logoDesign img">
+                <img src="images/img_ld_3.jpg" width="250" height="200" alt="logo_design_3" class="logoDesign img">
+
+                <img src="images/img_md_1.webp" width="250" height="200" alt="mobile_design_1" class="mobileDesign img">
+                <img src="images/img_md_2.png" width="250" height="200" alt="mobile_design_2" class="mobileDesign img">
+                <img src="images/img_md_3.png" width="250" height="200" alt="mobile_design_3" class="mobileDesign img">
+
+                <img src="images/img_wd_1.png" width="250" height="200" alt="web_design_1" class="webDesign img">
+                <img src="images/img_wd_2.jpg" width="250" height="200" alt="web_design_2" class="webDesign img">
+                <img src="images/img_wd_3.jpg" width="250" height="200" alt="web_design_3" class="webDesign img">
+            </div>
+        </div>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
